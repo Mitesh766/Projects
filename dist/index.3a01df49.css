@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+.header-container {
+  background-color: light green;
+  background-color: #94ec60;
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  height: 150px;
+}
+
+.logo-container {
+  margin: 20px;
+  display: flex;
+}
+
+.nav-bar {
+  align-items: center;
+  display: flex;
+}
+
+.nav-bar > ul {
+  margin: 20px;
+  display: flex;
+}
+
+.nav-bar > ul > li {
+  cursor: pointer;
+  margin: 20px;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 24px;
+  list-style: none;
+}
+
+.nav-bar > ul > li:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+.cart-icon {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.cart-icon:hover {
+  transform: scale(1.2);
+}
+
+.cards-container {
+  flex-wrap: wrap;
+  margin: 20px;
+  display: flex;
+}
+
+.card {
+  background-color: bisque;
+  border-radius: 5%;
+  width: 200px;
+  height: auto;
+  margin: 20px;
+  overflow: clip;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: #e9967a;
+  border: 1px solid red;
+}
+
+.card-image {
+  border-radius: 5%;
+  width: 80%;
+  height: 150px;
+  margin: 20px;
+  display: flex;
+}
+
+h2, h3, h4 {
+  text-align: center;
+  background-color: #adff2f;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimmer-card {
+  background-color: bisque;
+  border-radius: 5%;
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+}
+
+.btns {
+  margin: 20px;
+  display: flex;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
