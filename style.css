@@ -118,3 +118,15 @@ h2,h3,h4{
     display: flex;
     margin: 20px;
 }
+
+.abt{
+    color: aqua;
+}
+.contact {
+    color:aqua;
+}
+.err{
+    color: aqua;
+}
+
+

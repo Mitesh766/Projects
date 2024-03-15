@@ -47,8 +47,8 @@ const Body = () => {
             onClick={() => {
               filteredList = ListOfRes.filter((res) =>
                 res.info.name.toLowerCase().includes(searchText)
-              );
-              setFilteredListOfRes(filteredList);
+                );
+                setFilteredListOfRes(filteredList);
             }}
           >
             Submit
